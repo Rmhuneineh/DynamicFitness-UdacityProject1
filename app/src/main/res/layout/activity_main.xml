@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.dynamicfitness.MainActivity">
+
+    <ImageView
+        android:src="@drawable/gym"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dynamic Fitness"
+        android:textSize="45sp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/name" />
+
+    <TextView
+        android:text="Fitness Gym For Men And Women"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:text="dynafit@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20sp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="120dp"
+        android:id="@+id/email" />
+
+    <ImageView
+        android:src="@drawable/ic_mail"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="120dp"/>
+
+    <ImageView
+        android:src="@drawable/ic_location"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:text="Via Paolo Borsellino 42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20sp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="170dp"/>
+
+    <ImageView
+        android:src="@drawable/ic_phone"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="220dp"/>
+
+    <TextView
+        android:text="+393335487265"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20sp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="220dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_clock"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:text="Operating Hours:\nMonday-Saturday: 8am -> 11pm\nSunday: 8am -> 1pm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20sp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="75dp"/>
+
+
+</RelativeLayout>
