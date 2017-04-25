@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DynamicFitness</string>
+    <string name="title">Dynamic Fitness</string>
+    <string name="subtitle">Fitness Gym For Men And Women</string>
+    <string name="email">dynafit@gmail.com</string>
+    <string name="operating_hours">Operating Hours:\nMonday-Saturday: 8am -> 11pm\nSunday: 8am -> 1pm</string>
+    <string name="phone_number">+393335487265</string>
+    <string name="location">Via Paolo Borsellino 42</string>
 </resources>
